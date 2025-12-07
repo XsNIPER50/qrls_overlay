@@ -1,0 +1,1 @@
+npm --prefix ../project run preview
