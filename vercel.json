@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    {
+      "source": "/cp",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/cp/(.*)",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/seriestracker",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/seriestracker/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
