@@ -2,19 +2,19 @@
   "rewrites": [
     {
       "source": "/cp",
-      "destination": "/index.html"
+      "destination": "/"
     },
     {
-      "source": "/cp/(.*)",
-      "destination": "/index.html"
+      "source": "/cp/:path*",
+      "destination": "/"
     },
     {
       "source": "/seriestracker",
-      "destination": "/index.html"
+      "destination": "/"
     },
     {
-      "source": "/seriestracker/(.*)",
-      "destination": "/index.html"
+      "source": "/seriestracker/:path*",
+      "destination": "/"
     }
   ]
 }
