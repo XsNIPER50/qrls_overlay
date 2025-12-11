@@ -1,0 +1,27 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/cp",
+      "permanent": false
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/cp",
+      "destination": "/"
+    },
+    {
+      "source": "/cp/:path*",
+      "destination": "/"
+    },
+    {
+      "source": "/seriestracker",
+      "destination": "/"
+    },
+    {
+      "source": "/seriestracker/:path*",
+      "destination": "/"
+    }
+  ]
+}
