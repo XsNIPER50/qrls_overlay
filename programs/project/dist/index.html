@@ -6,6 +6,9 @@
 <!--          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"-->
 <!--          crossorigin="anonymous"-->
 <!--    >-->
+    <script>
+    // If we are exactly at the root path, redirect to /cp
+    if (window.location.pathname === '/' || window.location.pathname === '') {window.location.replace('/cp');}</script>
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Poppins|Bai Jamjuree|Electrolize|Aldrich|Bungee|Noto Sans Mono|bebas|Ubuntu|Baloo 2|Noto Sans Vai|Orbitron|Oswald">
     <meta charset="UTF-8"/>
